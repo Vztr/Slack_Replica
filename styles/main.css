@@ -1,0 +1,121 @@
+/* _____ B A S E _____ */
+@import url(./base/_normalize.scss);
+@import url(./base/_typo.scss);
+@import url(./base/_reset.scss);
+/* _____ U T I L I T I E S _____ */
+@import url(./utilities/_responsive.scss);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f6efe8;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.header {
+  -ms-grid-columns: 48% 48%;
+      grid-template-columns: 48% 48%;
+  padding-bottom: 60px;
+}
+
+.header h1 {
+  color: black;
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 0,5px;
+}
+
+.header p {
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 20px;
+  letter-spacing: 0,5px;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+
+.buttons {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.buttons a {
+  margin-top: 0;
+  width: 100%;
+  white-space: normal;
+  padding: 20px 24px;
+  background-color: #611f69;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buttons a:hover {
+  margin-top: 0;
+  width: 100%;
+  white-space: normal;
+  padding: 20px 24px;
+  background-color: #501855;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.example img {
+  max-width: 100%;
+  padding: 30px 0px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.section1__companies {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1__companies__img {
+  max-width: 100%;
+  padding: 10px 0px;
+}
+
+.section1__companies__img img {
+  max-width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
